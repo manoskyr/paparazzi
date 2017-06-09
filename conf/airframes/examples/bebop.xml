@@ -44,15 +44,20 @@
     </module-->
 
     <module name="video_thread"/>
-
     <module name="video_rtp_stream">
       <define name="VIEWVIDEO_CAMERA" value="bottom_camera"/>
-      <define name="VIEWVIDEO_CAMERA2" value="front_camera"/>
       <define name="VIEWVIDEO_DOWNSIZE_FACTOR" value="2"/>
       <define name="VIEWVIDEO_QUALITY_FACTOR" value="40"/>
+      <define name="VIEWVIDEO_FPS" value="25"/>
+    </module>
+    <module name="pose_history"/>
+	<module name="sonar_bebop"/>
+    <module name="cv_opticflow">
+    	<define name="OPTICFLOW_CAMERA" value="bottom_camera"/>
+      	<define name="OPTICFLOW_FPS" value="60"/>
     </module>
 
-    <module name="bebop_ae_awb"/>
+<!--    <module name="bebop_ae_awb"/>-->
 
   </modules>
 

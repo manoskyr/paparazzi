@@ -27,6 +27,7 @@
       <define name="DEROTATION_CORRECTION_FACTOR_Y" value="1.0" description="Correction factor for derotation (in y direction), estimated from a fit between the gyro's rates and the resulting flow (caused by the camera not being exactly in the middle (Defaults are from an ARDrone 2)"/>
 
       <!-- General optical flow calculation parameters -->
+      <define name="FPS" value="0" description="FPS for the optical flow. If 0 it runs at maximum frame rate"/>
       <define name="METHOD" value="0" description="Method used to calculate optical flow"/>
       <define name="WINDOW_SIZE" value="10" description="Window size used for block matching (pixels)"/>
       <define name="SEARCH_DISTANCE" value="10" description="Maximum search distance for blockmatching (pixels)"/>
